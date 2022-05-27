@@ -1,0 +1,504 @@
+8
+240000000     0.154977
+240000000     0.175477
+240000000     0.175096
+240000000     0.182205
+240000000     0.163613
+240000000     0.17013
+240000000     0.408306
+240000000     0.162019
+240000000     0.160372
+240000000     0.152974
+480000000     0.807602
+480000000     0.326653
+480000000     0.327433
+480000000     0.770864
+480000000     0.374547
+480000000     0.352827
+480000000     0.879042
+480000000     0.327756
+480000000     0.31843
+480000000     0.379024
+720000000     0.536798
+720000000     1.19848
+720000000     1.1968
+720000000     0.503862
+720000000     0.570251
+720000000     1.34923
+720000000     0.499585
+720000000     0.508581
+720000000     1.17275
+720000000     0.540685
+
+job aborted:
+[ranks] message
+
+[0-5] terminated
+
+[6] process exited without calling finalize
+
+[7] terminated
+
+---- error analysis -----
+
+[6] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0] terminated
+
+[1] process exited without calling finalize
+
+[2-7] terminated
+
+---- error analysis -----
+
+[1] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-2] terminated
+
+[3] process exited without calling finalize
+
+[4-7] terminated
+
+---- error analysis -----
+
+[3] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-1] process exited without calling finalize
+
+[2-7] terminated
+
+---- error analysis -----
+
+[0-1] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-1] terminated
+
+[2] process exited without calling finalize
+
+[3-7] terminated
+
+---- error analysis -----
+
+[2] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-2] terminated
+
+[3] process exited without calling finalize
+
+[4-7] terminated
+
+---- error analysis -----
+
+[3] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0] process exited without calling finalize
+
+[1-7] terminated
+
+---- error analysis -----
+
+[0] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-6] terminated
+
+[7] process exited without calling finalize
+
+---- error analysis -----
+
+[7] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-1] terminated
+
+[2] process exited without calling finalize
+
+[3-7] terminated
+
+---- error analysis -----
+
+[2] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-2] terminated
+
+[3] process exited without calling finalize
+
+[4-7] terminated
+
+---- error analysis -----
+
+[3] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0] process exited without calling finalize
+
+[1-5] terminated
+
+[6] process exited without calling finalize
+
+[7] terminated
+
+---- error analysis -----
+
+[0,6] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0] process exited without calling finalize
+
+[1-7] terminated
+
+---- error analysis -----
+
+[0] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-6] terminated
+
+[7] process exited without calling finalize
+
+---- error analysis -----
+
+[7] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0] process exited without calling finalize
+
+[1-4] terminated
+
+[5] process exited without calling finalize
+
+[6-7] terminated
+
+---- error analysis -----
+
+[0,5] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0] terminated
+
+[1] process exited without calling finalize
+
+[2-7] terminated
+
+---- error analysis -----
+
+[1] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-1] terminated
+
+[2] process exited without calling finalize
+
+[3-7] terminated
+
+---- error analysis -----
+
+[2] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-6] terminated
+
+[7] process exited without calling finalize
+
+---- error analysis -----
+
+[7] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-3] terminated
+
+[4] fatal error
+Fatal error in MPI_Scatter: Other MPI error, error stack:
+MPI_Scatter(sbuf=0x000002A40000C040, scount=150000000, MPI_CHAR, rbuf=0x000002A44788B040, rcount=150000000, MPI_CHAR, root=0, MPI_COMM_WORLD) failed
+Out of memory
+
+[5-7] terminated
+
+---- error analysis -----
+
+[4] on DESKTOP-7P6VKRI
+mpi has detected a fatal error and aborted D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-6] terminated
+
+[7] process exited without calling finalize
+
+---- error analysis -----
+
+[7] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0] process exited without calling finalize
+
+[1-7] terminated
+
+---- error analysis -----
+
+[0] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-1] terminated
+
+[2] fatal error
+Fatal error in MPI_Scatter: Other MPI error, error stack:
+MPI_Scatter(sbuf=0x000002132B32B040, scount=180000000, MPI_CHAR, rbuf=0x000002142CB40040, rcount=180000000, MPI_CHAR, root=0, MPI_COMM_WORLD) failed
+Out of memory
+
+[3-7] terminated
+
+---- error analysis -----
+
+[2] on DESKTOP-7P6VKRI
+mpi has detected a fatal error and aborted D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-3] terminated
+
+[4] process exited without calling finalize
+
+[5-7] terminated
+
+---- error analysis -----
+
+[4] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-5] terminated
+
+[6-7] process exited without calling finalize
+
+---- error analysis -----
+
+[6-7] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-3] terminated
+
+[4] process exited without calling finalize
+
+[5-7] terminated
+
+---- error analysis -----
+
+[4] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-5] terminated
+
+[6] process exited without calling finalize
+
+[7] terminated
+
+---- error analysis -----
+
+[6] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-5] terminated
+
+[6] process exited without calling finalize
+
+[7] terminated
+
+---- error analysis -----
+
+[6] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0] terminated
+
+[1-2] process exited without calling finalize
+
+[3-7] terminated
+
+---- error analysis -----
+
+[1-2] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-5] terminated
+
+[6] process exited without calling finalize
+
+[7] terminated
+
+---- error analysis -----
+
+[6] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0] process exited without calling finalize
+
+[1-7] terminated
+
+---- error analysis -----
+
+[0] on DESKTOP-7P6VKRI
+D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe ended prematurely and may have crashed. exit code -529697949
+
+---- error analysis -----
+
+job aborted:
+[ranks] message
+
+[0-3] terminated
+
+[4] fatal error
+Fatal error in MPI_Scatter: Other MPI error, error stack:
+MPI_Scatter(sbuf=0x0000024A030D8040, scount=180000000, MPI_CHAR, rbuf=0x0000024B048E1040, rcount=180000000, MPI_CHAR, root=0, MPI_COMM_WORLD) failed
+Out of memory
+
+[5-7] terminated
+
+---- error analysis -----
+
+[4] on DESKTOP-7P6VKRI
+mpi has detected a fatal error and aborted D:\Shkola\3rdCourse\Parallel\AffineCipherLab\x64\Release\AffineCipherLabMPI.exe
+
+---- error analysis -----
