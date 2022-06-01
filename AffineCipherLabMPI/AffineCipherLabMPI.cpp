@@ -47,7 +47,9 @@ void GetRandWord(char*& word, int len)
     }
 }
 
-
+char* word;
+char* encoded;
+char* decoded;
 
 int main(int argc, char* argv[]) {
 
@@ -60,12 +62,14 @@ int main(int argc, char* argv[]) {
     MPI_Comm_rank(MPI_COMM_WORLD, &ProcRank);
 
     int len = 24 * k * 10000000;
-    char* word = new char[len];
-    if (ProcNum == 0)
-        GetRandWord(word, len);
 
-    char* encoded = new char[len];
-    char* decoded = new char[len];
+    if (ProcNum == 0)
+    {
+        word = new char[len];
+        encoded = new char[len];
+        decoded = new char[len];
+        GetRandWord(word, len);
+    }
 
     int part = len / ProcNum;
 
@@ -73,30 +77,28 @@ int main(int argc, char* argv[]) {
     char* bufEncoded = new char[part];
     char* bufDecoded = new char[part];
 
-    MPI_Scatter(word, part, MPI_CHAR, bufWord, part, MPI_CHAR, 0, MPI_COMM_WORLD);
-    MPI_Scatter(encoded, part, MPI_CHAR, bufEncoded, part, MPI_CHAR, 0, MPI_COMM_WORLD);
-    MPI_Scatter(decoded, part, MPI_CHAR, bufDecoded, part, MPI_CHAR, 0, MPI_COMM_WORLD);
+    if (ProcNum == 0)
+    {
+        MPI_Scatter(word, part, MPI_CHAR, bufWord, part, MPI_CHAR, 0, MPI_COMM_WORLD);
+    }
 
     double start = MPI_Wtime();
     encryption(bufWord, bufEncoded, part);
     decryption(bufEncoded, bufDecoded, part);
     double stop = MPI_Wtime();
 
-    MPI_Gather(bufEncoded, part, MPI_CHAR, encoded, part, MPI_CHAR, 0, MPI_COMM_WORLD);
-    MPI_Gather(bufWord, part, MPI_CHAR, word, part, MPI_CHAR, 0, MPI_COMM_WORLD);
-    MPI_Gather(bufDecoded, part, MPI_CHAR, decoded, part, MPI_CHAR, 0, MPI_COMM_WORLD);
+    if (ProcNum == 0)
+    {
+        MPI_Gather(bufEncoded, part, MPI_CHAR, encoded, part, MPI_CHAR, 0, MPI_COMM_WORLD);
+        MPI_Gather(bufWord, part, MPI_CHAR, word, part, MPI_CHAR, 0, MPI_COMM_WORLD);
+        MPI_Gather(bufDecoded, part, MPI_CHAR, decoded, part, MPI_CHAR, 0, MPI_COMM_WORLD);
+    }
 
     MPI_Finalize();
 
     if (ProcRank == 0) {
         std::cout << len << "     " << stop - start << std::endl;
     }
-
-    delete[] word;
-    delete[] encoded;
-    delete[] decoded;
-    delete[] bufEncoded;
-    delete[] bufDecoded;
 
     return 0;
 }

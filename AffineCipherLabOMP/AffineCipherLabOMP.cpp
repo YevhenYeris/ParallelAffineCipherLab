@@ -71,13 +71,7 @@ void GetRandWord(char*& word, int len)
 
 int main(int argc, char* argv[]) {
 
-    /*int* runs = new int[4];
-    runs[0] = 2;
-    runs[1] = 3;
-    runs[2] = 4;
-    runs[3] = 8;*/
-
-    int procNum = 8;
+    int procNum = 4;
     std::cout << procNum << std::endl;
 
     int len = 24 * 10000000;
@@ -110,32 +104,6 @@ int main(int argc, char* argv[]) {
         }
         std::cout << "AVERAGE " << nlen << "    " << timeSum / 10 << std::endl;
     }
-
-    /*for (int i = 0; i < 4; ++i)
-    {
-        std::cout << runs[i] << std::endl;
-
-        //for (int k = 1; k < 7; ++k)
-        //{
-
-        char* encoded = new char[len];
-        char* decoded = new char[len];
-
-        int part = len / runs[i];
-
-        double start = omp_get_wtime();
-        encryption(word, encoded, len, runs[i]);
-        decryption(encoded, decoded, len, runs[i]);
-        double stop = omp_get_wtime();
-
-        std::cout << len << "     " << stop - start << std::endl;
-
-        delete[] encoded;
-        delete[] decoded;
-        //}
-    }
-
-    delete[] word;*/
 
     std::cin.get();
     return 0;
